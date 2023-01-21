@@ -8,7 +8,7 @@
      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
      <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     </head>
 
@@ -337,13 +337,13 @@
           <input class="subscription__text" type="email"
             name="email"
             placeholder="E-mail">
-
             <button class="subscription__button" type="button" >Підписатися      
               <svg class="subscription-icon" width="24" height="24">
               <use href="./images/symbol-defs (1).svg#send"></use>
             </svg>
+          </button>
           </div>
-</button>
+      
 
         </div>
         
@@ -358,8 +358,8 @@
         </svg></button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-form" autocomplete="off">
-          <label>
-            <span class="input-text"> Ім'я</span>
+          <label class="input-text">
+              Ім'я
              <span class="input-wrap">
               <input type="text" class="modal-input" name="user-name" required>             
              <svg class="modal-icon" width="12" height="12">
@@ -368,18 +368,18 @@
           </svg>
         </span>
           </label>
-          <label>
-            <span class="input-text">Телефон</span>
+          <label class="input-text">
+            Телефон
             <span class="input-wrap">
             <input type="tel" class="modal-input" name="user-tel" required>
-            <svg class="modal-icon" width="13" height="13">
+            <svg class="modal-icon" width="12" height="12">
               <use href="./images/EMAIL TEL NAME (1).svg#icon-phone-black-18dp-1">
               </use>
             </svg>
           </span>
               </label>
-          <label>
-            <span class="input-text">Пошта</span>
+          <label class="input-text">
+            Пошта
             <span class="input-wrap">
             <input type="email" class="modal-input" name="user-email" required>
             <svg class="modal-icon" width="15" height="12">
@@ -401,9 +401,9 @@
            id="agree" 
            name="agree" 
            value="true"
-           class="modal-check"
-          />
-           <label for="agree" class="check__text">Погоджуюся з розсилкою та приймаю 	&#160 <span class="text__contract">Умови договору</span> </label>
+           class="modal-check">
+          
+           <label for="agree" class="check__text">Погоджуюся з розсилкою та приймаю 	&#160;<span class="text__contract">Умови договору</span> </label>
         </div>
           <button class="modal-button" type="submit" >Відправити</button>
         </form>
@@ -412,3 +412,6 @@
      <script src="./js/modal.js"></script>
   </body>
 </html>
+
+
+
